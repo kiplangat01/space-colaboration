@@ -27,14 +27,17 @@
     <div class="login page">
         <div class="form">
             <form action="home.html">
-                <input type="text" placeholder="user name" class="m-3"/>
-                <select name="gender" id="" class="m-3">
+                
+                <input type="text" placeholder="user name" required class="m-3"/>
+                <label for="gender">gender</label>
+                <select name="gender" placeholder="gender" required id="" class="m-3">
+                    
                     <option value="">male</option>
                     <option value="">female</option>
                 </select>
-                <input type="text" placeholder="email" class="m-3"/>
-                <input type="password" placeholder="password" class="m-3"/>
-                <input type="password" placeholder="confirm password" class="m-3"/>
+                <input type="text" required placeholder="email" class="m-3"/>
+                <input type="password" required placeholder="password" class="m-3"/>
+                <input type="password" required placeholder="confirm password" class="m-3"/>
                 <button class="m-3">create</button>
                 <p class="message">Already registered? <a href="#">Login</a>
                 </p>

@@ -75,7 +75,7 @@ header ul li a{
 .bg .link{
     margin-top: 35pt;
     float: right;
-    color: aqua;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -87,6 +87,7 @@ header ul li a{
     font-weight: bold;
     border-radius: 50px;
     background-color: transparent;
+    margin-top: 30px;
     border: 2px solid white;
 }
 
@@ -123,8 +124,8 @@ header ul li a{
     text-decoration: none;
 }
 .bg{
-    color: aqua;
+    color: rgb(218, 102, 102);
 }
 .link a{
-    color: aqua;
+    color: rgb(119, 12, 4);
 }
