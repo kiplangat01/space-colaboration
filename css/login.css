@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo i{
+    font-size: 30px;
+    font-weight: 600px;
+    float: left;
+    font-size: 60px;
+    color:brown;
+}
+.nav-items {
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+    margin: 0 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.navbar{
+    padding-bottom: 20vh;
+}
+.hero1 {
+    background-image: url("../images/background1.jpg");
+    height: 100vh;
+  }
+  
+  .container {
+    height: 500px;
+    width: 40%;
+    margin: 0 auto;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit:contain;
+    padding-top: 5vh;
+    border-radius: 25px;
+    display: flex;
+    opacity: 0.7;
+    box-shadow: 5px 5px 25px 25px #888888;
+  }
+  form {
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+  .btn {
+    padding: 10px 13px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .btn :hover{
+      color: aqua;
+  }
+  .form-container input {
+    border:none;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid rgb(236, 236, 236);
+    color: black;
+    width: 100%;
+  }
+  .form-container p {
+    margin: 20px 0px;
+    color: red;
+    display: none;
+  }
+  .title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* padding-left: 30vh; */
+  }
+  .signup{
+      padding-top: 25px;
+  }
+  /* .hide {
+    display: none;
+  }
+  
+  .show {
+    display: unset !important;
+  } */
+  .nav-items a{
+    text-decoration: none;
+    color: black;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: brown;
+    margin: 0 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-right: 100px;
+
+  }
+  .navbar ul li{
+      text-decoration: none;
+      display: inline-block;
+      font-weight: bold;
+      
+    }
+  .navbar ul{
+      text-align: right;
+      padding-top: 20px;
+  }
+  .contact h1{
+    color: brown;
+    word-spacing: normal;
+}
+.contact{
+    word-spacing: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    word-spacing: 30px;
+}
+.signup a{
+  color: brown;
+}
+.hero{
+  background-image: url("../images/bedroom.jpg");
+  background-size: cover;
+  height: 120vh;
+}
+  
+ 
