@@ -1,6 +1,7 @@
 body{
     background-color: #cac1c1;
     margin: 0;
+    font-family: serif;
     padding: 0;
 }
 
@@ -97,13 +98,13 @@ button:hover{
 .intro h1{
     padding-top: 200px;
     padding-left: 100px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
 .intro h3{
     padding-left: 100px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .seal .fa-solid{
     color: brown;
@@ -152,3 +153,7 @@ form{
     border-radius: 10px;
 }
 
+.fame{
+    margin-top: 50px;
+    text-align: center;
+}

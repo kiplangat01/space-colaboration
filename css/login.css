@@ -131,7 +131,30 @@
 body{
   background-image: url("../images/bedroom.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 694px;
 }
   
- 
+.hero form input{
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 350px;
+    border: 1px solid #888888 ;
+}
+
+.hero form{
+  text-align: center;
+  margin-top: -40px;
+  
+}
+
+.hero form button{
+  padding: 10px;
+  font-weight: bolder;
+  background-color: rgb(8, 59, 155);
+  border: 0;
+  color: white;
+  border-radius: 10px;
+}
+  
