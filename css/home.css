@@ -157,3 +157,12 @@ form{
     margin-top: 50px;
     text-align: center;
 }
+
+.space a{
+    background-color: rgb(28, 91, 207);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    text-decoration: none;
+}

@@ -39,5 +39,10 @@ $("#book9").click(function(){
 
 
 
+$("#get").click(function(){
+    $("form").hide()
+    $("#para").show()
+})
+
 
 })

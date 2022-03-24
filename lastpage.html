@@ -23,31 +23,36 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
               <li><a href="#">Contact</a></li>
           </ul>
       </nav>
-      <form action="">
-        <input type="text" placeholder="user name" class="m-3"/><br>
+      <form  id="fom" action="">
+        <input type="text" placeholder="user name"  id="name" class="m-3" required/><br>
         <br>
        
-        <input type="text" placeholder="email" class="m-3"/> 
+        <input type="text"  placeholder="email" class="m-3" required/> 
         <br>
             <label for="date">Check in date</label> <br>
-        <input type="date">
+        <input  type="date" required>
 
         <br>
     
         <label for="date">Check out date</label> <br>
-        <input type="date">
+        <input  type="date">
         
         <br>
         <br>
-        <input type="number" placeholder="number of guests  to be hosted" class="m-3"/><br> <br>
-        <input type="number" placeholder="range of the age of guests eg.10-40"> <br>
+        <input type="number"  placeholder="number of guests  to be hosted" class="m-3"/><br> <br>
+        <input type="number"  placeholder="range of the age of guests eg.10-40" > <br>
         <br>
-        <button class="m-3" >Get linked</button><br> <br>
        
-        
+        <button class="m-3" id="get" type="submit">Get linked</button><br> <br>
+       
         </form>
     </div>
+        <div  class="d"><p id="para">
+           thank you for 
+       </p></div>
 
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
 </body>
 </html>
