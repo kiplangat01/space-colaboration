@@ -124,8 +124,27 @@ header ul li a{
     text-decoration: none;
 }
 .bg{
-    color: rgb(218, 102, 102);
+    color: rgb(69, 241, 155);
 }
 .link a{
     color: rgb(119, 12, 4);
 }
+
+.con{
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    color: rgb(76, 76, 216);
+  
+  }
+  
+  .con .copy{
+    font-size: medium;
+    color: black;
+    margin-top: 15px;
+  }
+  
+  .con i{
+    margin-left: 30px;
+  }

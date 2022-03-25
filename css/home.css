@@ -98,16 +98,23 @@ button:hover{
 .intro h1{
     padding-top: 200px;
     padding-left: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(218, 24, 34);
+    font-weight: bold;
+    
+    
 }
 
 
 .intro h3{
     padding-left: 100px;
-    color: rgb(0, 0, 0);
+    color:rgb(218, 24, 34);
+    font-weight: bold;
+  
+ 
 }
 .seal .fa-solid{
     color: brown;
+ 
 }
 
 .coment{
@@ -165,4 +172,11 @@ form{
     color: white;
     border: 0;
     text-decoration: none;
+}
+
+.change{
+    color: aqua;
+}
+.intro h1 h3{
+    background-color: #888888;
 }

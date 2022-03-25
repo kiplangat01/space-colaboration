@@ -106,3 +106,22 @@ header ul li a{
     margin: 0 20px;
     letter-spacing: 1px;
 }
+
+.con{
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    color: rgb(76, 76, 216);
+  
+  }
+  
+  .con .copy{
+    font-size: medium;
+    color: black;
+    margin-top: 15px;
+  }
+  
+  .con i{
+    margin-left: 30px;
+  }
